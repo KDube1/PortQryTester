@@ -1,4 +1,0 @@
-80 google.com
-25 yahoo.ca 
-1245 amazon.com udp #to use udp simply write it this way
-50 127.0.0.1
