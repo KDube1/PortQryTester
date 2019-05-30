@@ -1,0 +1,46 @@
+--portqry tester--
+Written by Krishna Dube, 2019
+------------------------------------
+
+-While portqry has the ability to log its test to a txt file, it cannot write multiple tests to the same file as it overwrites its own log file with the most recent test. The purpose of this script is to enable users to easily and cleanly test multiple addresses/ports.
+
+-The script requires a singular .txt file to be in the same directory as it with the name starting with "dataflows". It can have any name it wants after that but it must start with "dataflows" (e.g. "dataflowstest.txt" or "dataflowsportqry.txt" are both valid file names).
+
+-The script outputs two files: transcript.txt and result.txt. result.txt is the file that will contain relevant and organized information related to your addresses and ports.
+
+-The script should only be run in a directory with one dataflows file, with more than one I cannot predict which one will be used for testing.
+
+-The format of an entry in the dataflows file is as follows:
+~
+<port#> <address> <udp (optional, if not written will default to TCP protocol)>
+~
+
+-The spaces between the port, address, and protocol are essential and the script will not run without them.
+
+Examples:
+
+80 google.ca #if no protocol is written the TCP protocol is used
+448 127.0.0.1 udp #udp must be written for the udp protocol to be used
+10250 yahoo.com #URLs are a valid input for address
+
+-Comments can be left in the dataflows file at the end of a line after the port address and optional protocol by beginning with the '#' symbol.
+
+-By default this script will use the TCP protocol for port numbers. To use the UDP protocol, simply write "udp" after the IP address.
+
+-IPv6 addresses do not work with this script, because portqry will not accept them.
+
+-Valid addresses include: IPv4 addresses, URLs, and server names.
+
+-This script will not work unless portqry is extracted into the Windows folder of your computer, or PortQry.exe is part of your PATH variable.
+
+------------------------------------
+
+
+
+
+
+ 
+
+
+
+
