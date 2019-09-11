@@ -83,3 +83,5 @@ while ($val -lt $portArray.length){
 	Add-Content .\result.txt ''
 	$val++
 	}
+
+	#text comment
