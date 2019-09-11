@@ -84,4 +84,4 @@ while ($val -lt $portArray.length){
 	$val++
 	}
 
-	#text comment
+	#text comment 1
