@@ -31,7 +31,7 @@ Examples:
 
 -Valid addresses include: IPv4 addresses, URLs, and server names.
 
--This script will not work unless portqry is extracted into the Windows folder of your computer, or PortQry.exe is part of your PATH variable.
+-This script will not work unless portqry is extracted into the Windows folder of your computer, or PortQry.exe is part of your PATH variable
 
 ------------------------------------
 
